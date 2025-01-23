@@ -114,6 +114,7 @@ a{
 footer{
     background-color: #000000;
     padding: 5% 5% 5% 5%;
+    position: absolute
 }
 
 .copyright {
