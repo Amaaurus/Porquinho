@@ -1,0 +1,140 @@
+body{
+    background-color: #FF2449;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 0 0 10% 0;
+}
+
+.ears{
+    display: flex;
+    gap: 40%;
+    margin: 0% 10% 0% 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 170px solid #FF7B91;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+}
+
+.eyes{
+    display: flex;
+    gap: 40%;
+    margin: 5% 25% 0% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse_1{
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 20px #ffffff
+
+}
+
+.muzzle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse_2{
+    width: 210px;
+    height: 210px;
+    background-color: #FF7B91;
+    border-radius: 50%;
+
+}
+
+main{
+    margin: 0 0 10% 0;
+}
+
+hr{
+    margin: 5% 40% 15% 40%;
+    padding: 0% 5% 3% 0%;
+    box-shadow: 0 0 0 15px#FF7B91;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd5dc;
+}
+
+.donate{
+    display: flex;
+    gap: 10%;
+    margin: 0% 0% 0% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse_3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ffbdc8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    box-shadow: 0 15px 30px 0px #7c0015;
+}
+
+.ellipse_3:hover {
+    width: 300px;
+    height: 300px;
+    background-color: #ff768d;
+    transition: 1s;
+}
+
+.ellipse_3:hover .money {
+    color: #ffffff; 
+}
+
+.money {
+    font-size: 50pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff002b; 
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #000000;
+    padding: 5% 5% 5% 5%;
+}
+
+.copyright {
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+  }
+  
+  .github_amaaurus {
+    color: #ff768d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .github_amaaurus::after {
+    content: "Amaaurus";
+  }
+  
+  .github_amaaurus:hover::after {
+    color: #ff002b;
+    text-decoration: none;
+    text-transform: uppercase;
+    content: "Meu GitHub";
+  }
